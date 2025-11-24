@@ -10,12 +10,12 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~XQVCkYRL#XpKKq-s8Xvn_nFwFkxGukVbQ25v2-m7hIesUz-nkJCQ",  // Your bot's session ID (keep it secure)
     XDEV: process.env.XDEV || "",  // Github Username 
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "off", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  // Bot's display name
-    MODE: getConfig("MODE") || process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: getConfig("MODE") || process.env.MODE || "private",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/JawadTechXD/KHAN-MD",  // Bot's GitHub repo
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
@@ -28,7 +28,7 @@ module.exports = {
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*KHAN MD VIEWED YOUR STATUS 🤖*",  // Status reply message
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*",  // Status reply message
     READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     // ===== REACTION & STICKER SETTINGS =====
